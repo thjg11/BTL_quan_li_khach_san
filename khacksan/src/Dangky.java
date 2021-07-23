@@ -95,7 +95,6 @@ public class Dangky extends GiaoDienNhanVien  implements ActionListener{
         this.setLayout(null);
         this.add(pdk);
         pdk.setBounds(200, 0, 400, 500);
-        //pdk.setBackground(Color.BLUE);
         this.add(pphong);
         pphong.setBounds(600, 0, 400, 300);
         pphong.setBackground(Color.GRAY);
@@ -202,11 +201,11 @@ public class Dangky extends GiaoDienNhanVien  implements ActionListener{
         lmaphong.setBounds(0, 440, 100, 50);
         pdk.add(c1);
         c1.setBounds(100, 450, 200, 30);
-        //	c1.addItem("Chọn Mã Phòng");
+ 
         pdk.add(lngayden);
         lngayden.setBounds(0, 220, 100, 50);
         pdk.add(tsnd);
-        //tsnd.setBounds(100, 230, 200, 30);
+ 
         pdk.add(tyyyy);
         pdk.add(tmm);
         pdk.add(tdd);
@@ -216,7 +215,7 @@ public class Dangky extends GiaoDienNhanVien  implements ActionListener{
         pdk.add(lngaydi);
         lngaydi.setBounds(0, 260, 100, 50);
         pdk.add(tsngdi);
-        //tsngdi.setBounds(100, 270, 200, 30);
+        
         pdk.add(tyyyy1);
         pdk.add(tmm1);
         pdk.add(tdd1);
@@ -430,7 +429,7 @@ public class Dangky extends GiaoDienNhanVien  implements ActionListener{
         Date d = new Date();
         tyyyy.setText(yy.format(d));
 
-        //String sndi=tsngdi.getText();
+        
         String songo=tsongayo.getText();
 
         String tratruoc=tttt.getText();
@@ -464,7 +463,7 @@ public class Dangky extends GiaoDienNhanVien  implements ActionListener{
     }
     @SuppressWarnings("unused")
     private String Int(String sndi) {
-        // TODO Auto-generated method stub
+        
         return null;
     }
 

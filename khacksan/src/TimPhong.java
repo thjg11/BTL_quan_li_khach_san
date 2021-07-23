@@ -328,10 +328,7 @@ public class TimPhong extends GiaoDienNhanVien implements ItemListener,ActionLis
             JOptionPane.showMessageDialog(null, "Có Lỗi Xẩy Ra", "Thông Báo", JOptionPane.ERROR_MESSAGE);
         }
     }
-    //	public static void main(String[] args) {
-//		TimPhong tp=new TimPhong();
-//		tp.setVisible(true);
-//	}
+
     @Override
     public void itemStateChanged(ItemEvent e) {
 
@@ -342,13 +339,10 @@ public class TimPhong extends GiaoDienNhanVien implements ItemListener,ActionLis
             c3.setSelected(false);
             c4.setSelected(false);
             lmp.setVisible(true);
-            tmp.setVisible(true);
-
-            // lmp.setVisible(false);
+            tmp.setVisible(true);     
             lsp.setVisible(false);
             ldg.setVisible(false);
             ltt.setVisible(false);
-            //tmp.setVisible(false);
             tsp.setVisible(false);
             tdg.setVisible(false);
             ttt.setVisible(false);
@@ -382,7 +376,6 @@ public class TimPhong extends GiaoDienNhanVien implements ItemListener,ActionLis
         {
             c1.setSelected(false);
             c2.setSelected(false);
-            //c3.setSelected(false);
             c4.setSelected(false);
 
             lmp.setVisible(false);
@@ -403,7 +396,6 @@ public class TimPhong extends GiaoDienNhanVien implements ItemListener,ActionLis
             c1.setSelected(false);
             c2.setSelected(false);
             c3.setSelected(false);
-            // c4.setSelected(false);
             lmp.setVisible(false);
             lsp.setVisible(false);
             ldg.setVisible(false);

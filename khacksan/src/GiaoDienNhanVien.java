@@ -112,14 +112,11 @@ public class GiaoDienNhanVien extends JFrame implements MouseListener,ActionList
 
         p1.add(lhadk);
         lhadk.setBounds(0, 270, 200, 50);
-        //  p1.add(liconthemkh);
-        // liconthemkh.setBounds(0, 260, 200, 50);
+      
 
         p1.add(lhaphong);
         lhaphong.setBounds(0, 340, 200, 50);
-        // p1.add(lPhong);
-        // lPhong.setBounds(0, 410, 200, 50);
-
+        
         p1.add(lhahoadon);
         lhahoadon.setBounds(0, 410, 200, 50);
 
@@ -127,8 +124,7 @@ public class GiaoDienNhanVien extends JFrame implements MouseListener,ActionList
         lhoadon.setBounds(0, 590, 200, 80);
         p1.add(lql);
         lql.setBounds(0, 480, 200, 50);
-        //p1.add(bthoat);
-        //bthoat.setBounds(0, 610, 200, 50);
+        
 
         p1.add(lleft);
         lleft.setBounds(0, 0, 200, 700);
@@ -176,7 +172,7 @@ public class GiaoDienNhanVien extends JFrame implements MouseListener,ActionList
     {
         GiaoDienNhanVien gdnv=new GiaoDienNhanVien("NHÂN VIÊN");
         gdnv.setVisible(true);
-        //gdnv.setLocationRelativeTo(null);
+        
     }
     @Override
     public void actionPerformed(ActionEvent e) {

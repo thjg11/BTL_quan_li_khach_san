@@ -29,9 +29,7 @@ import javax.swing.table.JTableHeader;
 public class HoaDon extends GiaoDienNhanVien implements ItemListener {
 
 
-    /**
-     *
-     */
+    
     private static final long serialVersionUID = 1L;
     JPanel pcacnut=new JPanel();
     JPanel table=new JPanel();
@@ -305,7 +303,7 @@ public class HoaDon extends GiaoDienNhanVien implements ItemListener {
 
         pthongtin.add(lmhd);
         lmhd.setBounds(10, 50, 100, 50);
-        // ma hoa don
+        
         pthongtin.add(tmhd);
         tmhd.setBounds(100, 60, 200, 30);
 
@@ -320,14 +318,14 @@ public class HoaDon extends GiaoDienNhanVien implements ItemListener {
 
         pthongtin.add(lmkh);
         lmkh.setBounds(10, 180, 100, 50);
-        //ma khac hang
+        
         pthongtin.add(tmkh);
         tmkh.setBounds(100, 190, 200, 30);
 
         pthongtin.add(lmaphong);
         lmaphong.setBounds(10, 220, 100, 50);
 
-        // ma phong
+        
         pthongtin.add(tmp);
         tmp.setBounds(100, 230, 200, 30);
 
@@ -402,7 +400,7 @@ public class HoaDon extends GiaoDienNhanVien implements ItemListener {
         chonmhd.setBounds(100, 10, 200, 30);
         ptraphong.add(lmhd1);
         lmhd1.setBounds(10, 50, 100, 50);
-        // ma hoa don
+        
         ptraphong.add(tmhd1);
         tmhd1.setBounds(100, 60, 200, 30);
 
@@ -417,14 +415,14 @@ public class HoaDon extends GiaoDienNhanVien implements ItemListener {
 
         ptraphong.add(lmkh1);
         lmkh1.setBounds(10, 180, 100, 50);
-        //ma khach hang
+        
         ptraphong.add(tmkh1);
         tmkh1.setBounds(100, 190, 200, 30);
 
         ptraphong.add(lmaphong1);
         lmaphong1.setBounds(10, 220, 100, 50);
 
-        // ma phong
+        
         ptraphong.add(tmp1);
         tmp1.setBounds(100, 230, 200, 30);
 
@@ -708,7 +706,7 @@ public class HoaDon extends GiaoDienNhanVien implements ItemListener {
             bluulai.setVisible(true);
             bluulai1.setVisible(false);
             c3.setVisible(false);
-            //tmp.setVisible(true);
+            
             pthongtin.setVisible(true);
             ptimphong.setVisible(false);
         }
@@ -748,8 +746,6 @@ public class HoaDon extends GiaoDienNhanVien implements ItemListener {
             ttt.setEditable(false);
             bluulai.setVisible(false);
             bluulai1.setVisible(true);
-            //c3.setVisible(true);
-            //tmp.setVisible(false);
             pthongtin.setVisible(true);
             ptimphong.setVisible(false);
             btinhtien.setVisible(false);

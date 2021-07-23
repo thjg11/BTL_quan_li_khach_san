@@ -118,7 +118,7 @@ public class KhachHang extends GiaoDienNhanVien implements ActionListener{
         ptimkiem.setBackground(Color.GRAY);
         this.loadata();
         this.Thongtin();
-        // load du lieu len texfield
+
         tb.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -226,7 +226,7 @@ public class KhachHang extends GiaoDienNhanVien implements ActionListener{
                 dtm.addRow(Row);
 
             }
-            //tb.setModel(new DefaultTableModel(vtData, title));
+            
             tb.setModel(dtm);
         }catch(Exception e)
         {
@@ -298,10 +298,9 @@ public class KhachHang extends GiaoDienNhanVien implements ActionListener{
 
         capnhat.add(bcap);
         bcap.setBounds(200, 250, 100, 30);
-//		capnhat.add(blamlai);
-//		blamlai.setBounds(350, 250, 100, 30);
-//		capnhat.add(bokxoa);
-//		bokxoa.setBounds(200, 250, 200, 30);
+
+
+
 
         capnhat.add(lnen2);
         lnen2.setBounds(0, 0, 785, 350);
@@ -495,11 +494,9 @@ public class KhachHang extends GiaoDienNhanVien implements ActionListener{
             JOptionPane.showMessageDialog(null,"Thất Bại", "Thông Báo",JOptionPane.OK_OPTION);
         }
     }
-//	public static void main(String args[])
-//	{
-//		KhachHang kh=new KhachHang();
-//		kh.setVisible(true);
-//	}
+
+
+
 
     public void actionPerformed(ActionEvent e) {
 

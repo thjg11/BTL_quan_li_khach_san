@@ -24,9 +24,7 @@ import javax.swing.table.JTableHeader;
 
 public class GiaodienKH extends JFrame implements ActionListener {
 
-    /**
-     *
-     */
+    
     private static final long serialVersionUID = 1L;
     JPanel p1=new JPanel();
     JLabel l1=new JLabel("Chào Mừng Bạn Đến Với Khách Sạn chúng Tôi! Xin Mời Bạn Chọn Các Chưc Năng Sau : ");
@@ -134,7 +132,7 @@ public class GiaodienKH extends JFrame implements ActionListener {
 
         pdatphong.add(c1);
         c1.setBounds(130, 110, 100, 30);
-//		c1.addItem("-Select-");
+
         for(int i=1;i<=10;i++)
         {
             c1.addItem(i);
@@ -199,7 +197,7 @@ public class GiaodienKH extends JFrame implements ActionListener {
 
             e.printStackTrace();
         }
-//		c2.addItem("- Select -");
+
         try{
             while(rs.next())
             {
@@ -262,12 +260,8 @@ public class GiaodienKH extends JFrame implements ActionListener {
         }
     }
 
-    //   public static void main(String []args)
-//   {
-//	   GiaodienKH gdkh=new GiaodienKH();
-//	   gdkh.setVisible(true);
-//	   gdkh.setLocationRelativeTo(null);
-//   }
+
+
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==b1)

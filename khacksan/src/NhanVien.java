@@ -108,14 +108,11 @@ public class NhanVien extends QuanTri implements MouseListener,ActionListener{
         this.add(p4);
         p4.setBounds(200, 60, 800, 300);
         p4.setBackground(Color.lightGray);
-        //p4.setVisible(false);
         this.p4();
 
 
         this.add(pttnv);
         pttnv.setBounds(200, 365, 790, 200);
-        //pttnv.setBackground(Color.blue);
-        //pttnv.setVisible(false);
         this.thongtinnhanvien();
         this.add(pthemnhanvien);
         pthemnhanvien.setBounds(200, 60, 800, 550);

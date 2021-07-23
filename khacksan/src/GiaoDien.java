@@ -12,9 +12,7 @@ import javax.swing.*;
 import javax.swing.border.BevelBorder;
 public class GiaoDien extends JFrame implements MouseListener,ActionListener{
 
-    /**
-     *
-     */
+    
     private static final long serialVersionUID = 1L;
     JPanel p=new JPanel();
     JPanel p1=new JPanel();
@@ -81,14 +79,14 @@ public class GiaoDien extends JFrame implements MouseListener,ActionListener{
         super(title);
         this.setSize(1000, 600);
         this.setLayout(null);
-        //p.setBackground(Color.lightGray);
+        
         this.add(p1);
         p1.setBounds(0, 0, 200, 600);
         p1.setBackground(Color.GRAY);
         this.p1();
         this.add(p2);
         p2.setBounds(200, 0, 800, 600);
-        //p2.setBorder(new BevelBorder(BevelBorder.RAISED));
+        
         p2.setBackground(Color.lightGray);
         this.p2();
 
@@ -292,7 +290,7 @@ public class GiaoDien extends JFrame implements MouseListener,ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent arg0) {
-        // TODO Auto-generated method stub
+        /
 
     }
 
@@ -399,8 +397,7 @@ public class GiaoDien extends JFrame implements MouseListener,ActionListener{
 
     @Override
     public void mousePressed(MouseEvent arg0) {
-        // TODO Auto-generated method stub
-
+	// TODO Auto-generated method stub
     }
 
     @Override

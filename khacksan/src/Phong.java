@@ -63,7 +63,6 @@ public class Phong extends QuanTri implements MouseListener,ActionListener {
     DefaultTableModel dtm;
     Vector<String> rowtitle=new Vector<String>();
 
-    // JScrollPane jsp=new JScrollPane();
     public Phong(String title)
     {
         super(title);
@@ -73,7 +72,6 @@ public class Phong extends QuanTri implements MouseListener,ActionListener {
         this.setResizable(false);
         p2.setVisible(false);
         head.setBounds(200, 0, 800, 50);
-        //head.setBackground(Color.BLUE);
         this.add(Thongtinphong);
         Thongtinphong.setBounds(200, 300, 800, 300);
         Thongtinphong.setBackground(Color.LIGHT_GRAY);
